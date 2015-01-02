@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="WeatherGUI_browser.jnlp">
+  <information>
+    <title>WeatherGUI</title>
+    <vendor>iDesign</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="WeatherGUI.jar" size="25001" download="eager" />
+    <jar href="lib/jcalendar-1.4.jar" size="165052" download="eager" />
+    <jar href="lib/jcommon-1.0.23.jar" size="330246" download="eager" />
+    <jar href="lib/jfreechart-1.0.19.jar" size="1570157" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="weathergui.WeatherGUI"  name="WeatherGUI" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
